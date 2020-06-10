@@ -13,7 +13,7 @@ Feel free to clone it. If you want to run the project, install its dependencies 
 to be able to fully grasp react, I recomend you to freshen up on your JS, especially the ES6 features as we will be using them quite a lot. 
 Fear not! I will quickly go over some fundamentals. I have some slides about the core definition Javascript to get you started [check it out!](https://docs.google.com/presentation/d/1SdM7FdoPiJQECB0lIrkXeqNFszoOpfSQyHVu4cMUJuw/edit?usp=sharing)
 
-Make sure you have node.js installed and  you will be ready to roll!
+Make sure you have node.js and npm installed and  you will be ready to roll!
 
 ### The flow of the workshop
 
