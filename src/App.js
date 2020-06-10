@@ -12,9 +12,6 @@ function App() {
     <div className="App">
        <Nav/>
       <Routes/>
-     
-      
-    
     </div>
   );
 }
