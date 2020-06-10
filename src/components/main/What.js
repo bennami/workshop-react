@@ -1,6 +1,6 @@
 import React from 'react';
 import logo from '../../logo.svg';
-import Guide from '../guide/guide';
+import Guide from '../workshopContent/content';
 import Footer from '../footer/footer';
 
 function Home(){

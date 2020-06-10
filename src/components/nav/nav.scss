@@ -123,3 +123,11 @@ nav a:hover{
       transform: rotate(45deg) translate(-5px, -6px);
   }
 }
+
+.active{
+ display: block;
+}
+
+.closed{
+  display: none;
+}

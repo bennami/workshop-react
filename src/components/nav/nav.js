@@ -6,6 +6,7 @@ function Nav(props) {
 
     const [navClass, setClass] = useState(true);
     const [burgerClass, setBurgerClass] = useState(true);
+    const [openSubMenu, setOpenSubMenu] = useState(false)
 
     const navSlide =() => {
         const navLinks = document.querySelectorAll('.nav-links li');
@@ -29,12 +30,34 @@ function Nav(props) {
 
     };
 
+    function checkBool(){
+        if(openSubMenu){
+            setOpenSubMenu(false)
+        }else{
+            setOpenSubMenu(true)
+        }
+    }
 
     return(
         <nav>
             <ul className= {"nav-desktop"}>
-                <li><a href="#about">About</a></li>
-               <li><Link to={'/projects'}>Projects</Link></li>
+                
+                <li>
+                    <button onClick={checkBool}>
+                        Overview
+                    </button>
+                    
+                    <ul className={openSubMenu? "active" :'closed'}>
+                        <li>What is React</li>
+                        <li>What is Reactivity</li>
+                        <li>How to get started</li>
+                        <li>deploy to gh-pages</li>
+                    </ul>
+                
+                
+                </li>
+
+               <li><Link to={'/projects'}>examples</Link></li>
                 <li><Link to ="/">Home</Link></li>
             </ul >
             <div onClick={navSlide} className={burgerClass ? 'burger' : 'burger toggle'} >
@@ -43,8 +66,8 @@ function Nav(props) {
                 <div className="line3"/>
             </div>
             <ul className= {navClass ? 'nav-links-mobile': 'nav-links-mobile nav-active-mobile'}>
-            <li><a href="#about">About</a></li>
-               <li><Link to={'/projects'}>Projects</Link></li>
+            <li><a href="#about">Overview</a></li>
+               <li><Link to={'/projects'}>Examples</Link></li>
                 <li><Link to ="/">Home</Link></li>
             </ul >
         </nav>

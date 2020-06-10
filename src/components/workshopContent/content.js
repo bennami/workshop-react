@@ -27,9 +27,51 @@ export const Guide = () => {
       <section className="workshop-chapter">
         <h1>a tour through the folder structure</h1>
         <p><code>npx create-react-app</code> comes with a lot of handy preinstalled dependecies and packages that will help us  transpile the code, lint  the code and so on, during the workshop we will go over some key features inside this package.</p>
-        <h1>functional components</h1>
-        <h1>hooks</h1>
+        
+       
       </section>
+      <section className="workshop-chapter">
+      <h1>functional components</h1>
+      </section>
+      <section className="workshop-chapter">
+      <h1>hooks</h1>
+      </section>
+      <section className="workshop-chapter">
+      <h1>Create a build folder for production</h1>
+      <p>For this specific workshop we will be deploying our app on github pages. First things first we need create a repo on github. Then we get into the terminal, we cd into  the project folder we want to deploy and we initialize the git repo. check out this link for more info on   <span><a href="https://scotch.io/tutorials/how-to-push-an-existing-project-to-github"  target="_blank" rel="noopener noreferrer">how  to intialize a  repository. </a></span></p>
+      <p>Once you have your repo on github, install this package:</p>
+      <pre>
+        <code>npm install gh-pages --save-dev</code>
+      </pre>
+      </section>
+
+      <p>This is where  you might get a bit confused if it is your first time working with package.json. In there, we need  to add a few lines to be able to run the scripts that will build our production folder and host it to the homepage of our choosing</p>
+
+      <p>On top of 
+        <pre>
+        <code>
+        "name": "my app name"
+        </code>
+        </pre>
+      
+      </p>
+      
+      <p>add this line</p> 
+
+      <pre>
+        <code>
+          "homepage": "http://yourghlink.github.io/my-app-name"
+          </code>
+      </pre>
+
+      <p>Inside the existing scripts object, add these two lines. These will build the production folder</p>
+      <pre>
+        <code>
+        "predeploy": "npm run build",
+        "deploy": "gh-pages -d build"
+        </code>
+      
+      </pre>
       
     </div>
   )
