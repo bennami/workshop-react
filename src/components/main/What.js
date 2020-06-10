@@ -1,6 +1,7 @@
 import React from 'react';
 import logo from '../../logo.svg';
 import Guide from '../guide/guide';
+import Footer from '../footer/footer';
 
 function Home(){
 
@@ -20,6 +21,7 @@ return(
       <section id="sectionIntro">
         <Guide/>
       </section>
+      <Footer/>
 
   </>
 )
