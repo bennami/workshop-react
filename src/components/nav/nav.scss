@@ -1,57 +1,70 @@
+// DESKTOP > 1024px
+a{
+  text-decoration: none;
+}
+.sub-menu-active-mobile{
+  display: none;
+}
 nav{
   display: flex;
+  flex-direction: column;
   align-items: center;
-  min-height: 8vh;
-  padding-top: 10px;
-  margin: 0 auto;
+  height: 8vh;
   justify-content: space-around;
   background-color: #282C34;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1;
   ul{
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+    
     li{
+      list-style-type: none;
+      padding-right: 1rem;
+      color: whitesmoke;
+      padding-bottom: 1rem;
+      a{
+        text-decoration: none;
+        color: whitesmoke;
+      }
+      a:hover{
+        color: #5dfdc8;
+      }
       button{
         background: none;
         border: none;
         text-align: center;
         color: whitesmoke; 
-        font-size: 1rem; 
+        font-size: 1.2rem; 
         display: flex;
         align-items: center;
       }
       button:hover{
-        color: lightseagreen;
+        color: #5dfdc8;
       }
-      
-    
     }
   }
+  .sub-menu-active{
+    display: flex;
+    background-color: #282C34;
+    flex-direction: column;
+    top: 8vh;
+    width: 30%;
+    height: max-content;
+    position: fixed;
+    justify-content: left;
+    text-align: right;
+    right: 0;
+    padding: 1rem;
+  }
 }
+
+// we hide the mobile version nav and burger menu item while we are on a big screen
 .nav-links-mobile{
   display: none;
-}
-nav h3{
-  font-weight: bold;
-  letter-spacing: 3px;
-  color: whitesmoke;
-}
-nav ul{
-  display: flex;
-  justify-content: flex-end;
-  padding-right: 3rem;
-  width: 100%;
-  z-index: 3;
-}
-nav ul li{
-  list-style-type: none;
-  padding-right: 1rem;
-  color: whitesmoke
-  ;
-}
-a{
-  text-decoration: none;
-  color: whitesmoke;
-}
-nav a:hover{
-  color: lightseagreen;
 }
 .burger{
   display: none;
@@ -62,77 +75,52 @@ nav a:hover{
   background-color: whitesmoke;
   margin: 5px;
 }
-@media screen and(max-width: 1024px){
-  .nav ul{
-      width: 60%;
-  }
+.closed{
+  display: none;
 }
 
 @media only screen and (max-width: 800px){
-  .service-container{
-      display: grid;
-      width: 90%;
-      text-align: center;
-      margin: 2rem auto;
-  }
   .nav-desktop{
     display: none;
-}
-  .container-intro{
-      grid-template-columns: 1fr;
-      grid-template-rows: 30% 30%;
+  }
+  .sub-menu-active-mobile{
+    display: block;
   }
   nav{
-      display: flex;
-      width: 100%;
-      justify-content: flex-end;
+    flex-direction: row;
+    justify-content: flex-end;
+    .sub-menu-active{
+      display: none;
+    }
   }
 
   .nav-links-mobile{
-      display: block;
-      position:fixed;
-      height: 30vh;
-      top: 8vh;
-      background-color: rgb(22, 90, 109);
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      width: 100%;
-      transform: translateX(100%);
-      transition: transform 0.3s ;
-      justify-content: space-around;
-      padding: 3vh 5vh 10vh 5vh;
-      font-size: larger;
-      margin-top: 0;
+    display: block;
+    position: fixed;
+    height: max-content;
+    top: 8vh;
+    background-color: #282C34;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    transform: translateX(100%);
+    transition: transform 0.3s;
+    justify-content: space-around;
+    text-align: left;
+    font-size: larger;
+    margin-top: 0;
+      li{
+        text-align: left;
+      }
   }
 
+  //these properies will activate dynamically thanks to the useState
   .burger{
       display: block;
       cursor: pointer;
       margin-right: 3rem;
   }
-  .nav-links-mobile a{
-      color: whitesmoke;
-  }
-
-  .nav-links li{
-      opacity: 0;
-  }
-  .nav-active-mobile{
-      transform: translateX(0%);
-      transition: transform 0.3s ease-in;
-  }
-  @keyframes navLinkFade {
-      from{
-          opacity: 0;
-          transform: translateX(50px)
-      }
-      to{
-          opacity: 1;
-          transform: translateX(0px)
-      }
-  }
-  .toggle .line1{
+    .toggle .line1{
       transform: rotate(-45deg) translate(-5px, 6px);
   }
   .toggle .line2{
@@ -141,12 +129,10 @@ nav a:hover{
   .toggle .line3{
       transform: rotate(45deg) translate(-5px, -6px);
   }
+    .nav-active-mobile{
+        transform: translateX(0%);
+        transition: transform 0.3s ease-in;
+    }
 }
 
-.active{
- display: block;
-}
 
-.closed{
-  display: none;
-}

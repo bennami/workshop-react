@@ -1,9 +1,7 @@
 import React, {useState} from "react";
-import {Link} from "react-router-dom";
 import  {SubMenu} from './subMenu';
 import {IoIosArrowUp} from 'react-icons/io';
 import {IconContext} from "react-icons"
-
 import "./nav.scss"
 
 function Nav(props) {
@@ -14,7 +12,7 @@ function Nav(props) {
     const [rotate, setRotate]= useState('rotate(90deg)');
 
     const navSlide =() => {
-        const navLinks = document.querySelectorAll('.nav-links li');
+       
          //open close nav on mobile
             if(!navClass){
                setClass(true);
@@ -23,19 +21,9 @@ function Nav(props) {
                setClass(false);
                setBurgerClass(false);
             }
-
-            //animate links
-            navLinks.forEach((link,index) =>{
-                if(link.style.animation){
-                    link.style.animation ='';
-                }else {
-                    link.style.animation = `navLinkFade 0.3s ease forwards ${index / 5 + 0.2}s`;
-                }
-            });
-
     };
 
-    function checkBool(){
+    function subMenu(){
         if(openSubMenu){
             setRotate('rotate(90deg)');
             console.log(rotate);
@@ -43,8 +31,7 @@ function Nav(props) {
         }else{
             setRotate('rotate(180deg)');
             console.log(rotate);
-            setOpenSubMenu(true)
-           
+            setOpenSubMenu(true)       
         }
     }
 
@@ -52,10 +39,14 @@ function Nav(props) {
     return(
         <nav>
             <ul className= {"nav-desktop"}>
-                <li><Link to={''}>examples</Link></li>
-                <li><Link to ={''}>Home</Link></li>
                 <li>
-                    <button onClick={checkBool}>
+                    <button>Examples</button>
+                </li>
+                <li>
+                    <button>Home</button>
+                </li>
+                <li>
+                    <button onClick={subMenu}>
                     Overview 
                     <IconContext.Provider
                     value={
@@ -70,19 +61,25 @@ function Nav(props) {
                         <IoIosArrowUp/>
                     </IconContext.Provider>
                     </button>
-                </li>    
+                </li> 
+                <SubMenu openSubMenu={openSubMenu}/>   
             </ul >
-            <SubMenu openSubMenu={openSubMenu}/>
+           
+
             <div onClick={navSlide} className={burgerClass ? 'burger' : 'burger toggle'} >
                 <div className="line1"/>
                 <div className="line2"/>
                 <div className="line3"/>
             </div>
             <ul className= {navClass ? 'nav-links-mobile': 'nav-links-mobile nav-active-mobile'}>
-                <li><Link to={''}>examples</Link></li>
-                <li><Link to ={''}>Home</Link></li>
                 <li>
-                    <button onClick={checkBool}>
+                    <button>Examples</button>
+                </li>
+                <li>
+                    <button>Home</button>
+                </li>
+                <li>
+                    <button onClick={subMenu}>
                         Overview 
                         <IconContext.Provider
                         value={
@@ -98,6 +95,7 @@ function Nav(props) {
                         </IconContext.Provider>
                     </button>
                 </li> 
+                <SubMenu openSubMenu={openSubMenu}/>
             </ul >
         </nav>
 
