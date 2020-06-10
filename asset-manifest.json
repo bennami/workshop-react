@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/workshop-react/%20/static/css/main.67c61d3f.chunk.css",
-    "main.js": "/workshop-react/%20/static/js/main.6c65ffe1.chunk.js",
-    "main.js.map": "/workshop-react/%20/static/js/main.6c65ffe1.chunk.js.map",
+    "main.css": "/workshop-react/%20/static/css/main.71f8e6d3.chunk.css",
+    "main.js": "/workshop-react/%20/static/js/main.06eb5517.chunk.js",
+    "main.js.map": "/workshop-react/%20/static/js/main.06eb5517.chunk.js.map",
     "runtime-main.js": "/workshop-react/%20/static/js/runtime-main.de2bbe23.js",
     "runtime-main.js.map": "/workshop-react/%20/static/js/runtime-main.de2bbe23.js.map",
     "static/js/2.f01c2682.chunk.js": "/workshop-react/%20/static/js/2.f01c2682.chunk.js",
     "static/js/2.f01c2682.chunk.js.map": "/workshop-react/%20/static/js/2.f01c2682.chunk.js.map",
     "index.html": "/workshop-react/%20/index.html",
-    "precache-manifest.7c6a032d3a566de641753150a6075f50.js": "/workshop-react/%20/precache-manifest.7c6a032d3a566de641753150a6075f50.js",
+    "precache-manifest.e718554a67755346f0e260f13b9887ed.js": "/workshop-react/%20/precache-manifest.e718554a67755346f0e260f13b9887ed.js",
     "service-worker.js": "/workshop-react/%20/service-worker.js",
-    "static/css/main.67c61d3f.chunk.css.map": "/workshop-react/%20/static/css/main.67c61d3f.chunk.css.map",
+    "static/css/main.71f8e6d3.chunk.css.map": "/workshop-react/%20/static/css/main.71f8e6d3.chunk.css.map",
     "static/js/2.f01c2682.chunk.js.LICENSE.txt": "/workshop-react/%20/static/js/2.f01c2682.chunk.js.LICENSE.txt",
     "static/media/logo.svg": "/workshop-react/%20/static/media/logo.5d5d9eef.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.de2bbe23.js",
     "static/js/2.f01c2682.chunk.js",
-    "static/css/main.67c61d3f.chunk.css",
-    "static/js/main.6c65ffe1.chunk.js"
+    "static/css/main.71f8e6d3.chunk.css",
+    "static/js/main.06eb5517.chunk.js"
   ]
 }
