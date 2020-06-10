@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/workshop-react/%20/static/css/main.71f8e6d3.chunk.css",
-    "main.js": "/workshop-react/%20/static/js/main.06eb5517.chunk.js",
-    "main.js.map": "/workshop-react/%20/static/js/main.06eb5517.chunk.js.map",
-    "runtime-main.js": "/workshop-react/%20/static/js/runtime-main.de2bbe23.js",
-    "runtime-main.js.map": "/workshop-react/%20/static/js/runtime-main.de2bbe23.js.map",
-    "static/js/2.f01c2682.chunk.js": "/workshop-react/%20/static/js/2.f01c2682.chunk.js",
-    "static/js/2.f01c2682.chunk.js.map": "/workshop-react/%20/static/js/2.f01c2682.chunk.js.map",
-    "index.html": "/workshop-react/%20/index.html",
-    "precache-manifest.e718554a67755346f0e260f13b9887ed.js": "/workshop-react/%20/precache-manifest.e718554a67755346f0e260f13b9887ed.js",
-    "service-worker.js": "/workshop-react/%20/service-worker.js",
-    "static/css/main.71f8e6d3.chunk.css.map": "/workshop-react/%20/static/css/main.71f8e6d3.chunk.css.map",
-    "static/js/2.f01c2682.chunk.js.LICENSE.txt": "/workshop-react/%20/static/js/2.f01c2682.chunk.js.LICENSE.txt",
-    "static/media/logo.svg": "/workshop-react/%20/static/media/logo.5d5d9eef.svg"
+    "main.css": "/workshop-react/static/css/main.71f8e6d3.chunk.css",
+    "main.js": "/workshop-react/static/js/main.448f5a33.chunk.js",
+    "main.js.map": "/workshop-react/static/js/main.448f5a33.chunk.js.map",
+    "runtime-main.js": "/workshop-react/static/js/runtime-main.acfb99ab.js",
+    "runtime-main.js.map": "/workshop-react/static/js/runtime-main.acfb99ab.js.map",
+    "static/js/2.f01c2682.chunk.js": "/workshop-react/static/js/2.f01c2682.chunk.js",
+    "static/js/2.f01c2682.chunk.js.map": "/workshop-react/static/js/2.f01c2682.chunk.js.map",
+    "index.html": "/workshop-react/index.html",
+    "precache-manifest.f0eaa0afe334a758579e629518a2e644.js": "/workshop-react/precache-manifest.f0eaa0afe334a758579e629518a2e644.js",
+    "service-worker.js": "/workshop-react/service-worker.js",
+    "static/css/main.71f8e6d3.chunk.css.map": "/workshop-react/static/css/main.71f8e6d3.chunk.css.map",
+    "static/js/2.f01c2682.chunk.js.LICENSE.txt": "/workshop-react/static/js/2.f01c2682.chunk.js.LICENSE.txt",
+    "static/media/logo.svg": "/workshop-react/static/media/logo.5d5d9eef.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.de2bbe23.js",
+    "static/js/runtime-main.acfb99ab.js",
     "static/js/2.f01c2682.chunk.js",
     "static/css/main.71f8e6d3.chunk.css",
-    "static/js/main.06eb5517.chunk.js"
+    "static/js/main.448f5a33.chunk.js"
   ]
 }
