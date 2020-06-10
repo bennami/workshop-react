@@ -1,3 +1,5 @@
+[workshop website](https://bennami.github.io/workshop-react/)
+
 Welcome to the new way of react
 
 ## Introduction to functional components and hooks with react
