@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/workshop-react/.%20/static/css/main.67c61d3f.chunk.css",
+    "main.js": "/workshop-react/.%20/static/js/main.0f4b22c8.chunk.js",
+    "main.js.map": "/workshop-react/.%20/static/js/main.0f4b22c8.chunk.js.map",
+    "runtime-main.js": "/workshop-react/.%20/static/js/runtime-main.240d7a25.js",
+    "runtime-main.js.map": "/workshop-react/.%20/static/js/runtime-main.240d7a25.js.map",
+    "static/js/2.f01c2682.chunk.js": "/workshop-react/.%20/static/js/2.f01c2682.chunk.js",
+    "static/js/2.f01c2682.chunk.js.map": "/workshop-react/.%20/static/js/2.f01c2682.chunk.js.map",
+    "index.html": "/workshop-react/.%20/index.html",
+    "precache-manifest.5185747cda33e142c3bcbe74dff0b2c9.js": "/workshop-react/.%20/precache-manifest.5185747cda33e142c3bcbe74dff0b2c9.js",
+    "service-worker.js": "/workshop-react/.%20/service-worker.js",
+    "static/css/main.67c61d3f.chunk.css.map": "/workshop-react/.%20/static/css/main.67c61d3f.chunk.css.map",
+    "static/js/2.f01c2682.chunk.js.LICENSE.txt": "/workshop-react/.%20/static/js/2.f01c2682.chunk.js.LICENSE.txt",
+    "static/media/logo.svg": "/workshop-react/.%20/static/media/logo.5d5d9eef.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.240d7a25.js",
+    "static/js/2.f01c2682.chunk.js",
+    "static/css/main.67c61d3f.chunk.css",
+    "static/js/main.0f4b22c8.chunk.js"
+  ]
+}
