@@ -1,12 +1,17 @@
 import React, {useState} from "react";
 import {Link} from "react-router-dom";
+import  {SubMenu} from './subMenu';
+import {IoIosArrowUp} from 'react-icons/io';
+import {IconContext} from "react-icons"
+
 import "./nav.scss"
 
 function Nav(props) {
 
     const [navClass, setClass] = useState(true);
     const [burgerClass, setBurgerClass] = useState(true);
-    const [openSubMenu, setOpenSubMenu] = useState(false)
+    const [openSubMenu, setOpenSubMenu] = useState(false);
+    const [rotate, setRotate]= useState('rotate(90deg)');
 
     const navSlide =() => {
         const navLinks = document.querySelectorAll('.nav-links li');
@@ -32,43 +37,67 @@ function Nav(props) {
 
     function checkBool(){
         if(openSubMenu){
-            setOpenSubMenu(false)
+            setRotate('rotate(90deg)');
+            console.log(rotate);
+            setOpenSubMenu(false);
         }else{
+            setRotate('rotate(180deg)');
+            console.log(rotate);
             setOpenSubMenu(true)
+           
         }
     }
+
 
     return(
         <nav>
             <ul className= {"nav-desktop"}>
-                
+                <li><Link to={''}>examples</Link></li>
+                <li><Link to ={''}>Home</Link></li>
                 <li>
                     <button onClick={checkBool}>
-                        Overview
+                    Overview 
+                    <IconContext.Provider
+                    value={
+                        { style: {
+                            fontSize: '20px', 
+                            color: "whitesmoke", 
+                            transform:`${rotate}`,
+                            marginLeft: "5px"
+                            }
+                        }
+                    }>
+                        <IoIosArrowUp/>
+                    </IconContext.Provider>
                     </button>
-                    
-                    <ul className={openSubMenu? "active" :'closed'}>
-                        <li>What is React</li>
-                        <li>What is Reactivity</li>
-                        <li>How to get started</li>
-                        <li>deploy to gh-pages</li>
-                    </ul>
-                
-                
-                </li>
-
-               <li><Link to={'/projects'}>examples</Link></li>
-                <li><Link to ="/">Home</Link></li>
+                </li>    
             </ul >
+            <SubMenu openSubMenu={openSubMenu}/>
             <div onClick={navSlide} className={burgerClass ? 'burger' : 'burger toggle'} >
                 <div className="line1"/>
                 <div className="line2"/>
                 <div className="line3"/>
             </div>
             <ul className= {navClass ? 'nav-links-mobile': 'nav-links-mobile nav-active-mobile'}>
-            <li><a href="#about">Overview</a></li>
-               <li><Link to={'/projects'}>Examples</Link></li>
-                <li><Link to ="/">Home</Link></li>
+                <li><Link to={''}>examples</Link></li>
+                <li><Link to ={''}>Home</Link></li>
+                <li>
+                    <button onClick={checkBool}>
+                        Overview 
+                        <IconContext.Provider
+                        value={
+                            { style: {
+                                fontSize: '20px', 
+                                color: "whitesmoke", 
+                                transform:"rotate(180deg)",
+                                marginLeft: "5px"
+                                }
+                            }
+                        }>
+                            <IoIosArrowUp/>
+                        </IconContext.Provider>
+                    </button>
+                </li> 
             </ul >
         </nav>
 

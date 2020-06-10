@@ -6,6 +6,24 @@ nav{
   margin: 0 auto;
   justify-content: space-around;
   background-color: #282C34;
+  ul{
+    li{
+      button{
+        background: none;
+        border: none;
+        text-align: center;
+        color: whitesmoke; 
+        font-size: 1rem; 
+        display: flex;
+        align-items: center;
+      }
+      button:hover{
+        color: lightseagreen;
+      }
+      
+    
+    }
+  }
 }
 .nav-links-mobile{
   display: none;
@@ -67,7 +85,7 @@ nav a:hover{
   nav{
       display: flex;
       width: 100%;
-      justify-content: end;
+      justify-content: flex-end;
   }
 
   .nav-links-mobile{
@@ -85,6 +103,7 @@ nav a:hover{
       justify-content: space-around;
       padding: 3vh 5vh 10vh 5vh;
       font-size: larger;
+      margin-top: 0;
   }
 
   .burger{
