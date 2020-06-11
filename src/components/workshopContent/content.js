@@ -173,15 +173,12 @@ export const Guide = (props) => {
 
       <p>This is where  you might get a bit confused if it is your first time working with package.json. In there, we need  to add a few lines to be able to run the scripts that will build our production folder and host it to the homepage of our choosing</p>
 
-      <p>On top of 
+      <p>On top of </p>
         <pre>
         <code>
         "name": "my app name"
         </code>
-        </pre>
-      
-      </p>
-      
+        </pre> 
       <p>add this line</p> 
 
       <pre>
