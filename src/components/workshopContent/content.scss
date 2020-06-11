@@ -1,15 +1,21 @@
 *{
   font-family: 'Poppins', sans-serif;
+  color: whitesmoke;
 }
 .App-link:hover{
   cursor: pointer;
   text-decoration: underline;
 
 }
+.container{
+  width: 100vw;
+  background-color: #181425;
+}
 .workshop-content{
   padding: 2rem;
-  background-color: rgb(223, 223, 223);
+  background-color: #181425;
   margin: 2rem;
+  margin-top: 0;
   section{
     margin-left: 1rem;
     margin-top: 1rem;
@@ -17,20 +23,44 @@
   p{
     text-align: left;
     font-size: 18px;
-    line-height: 24px;
+    height: max-content;
+    width: 80%;
   }
   h1{
     font-weight: 800px;
   }
   h2{
-    text-decoration: underline;
-    font-size: 18px;
+    
+    font-size: 24px;
     margin-top: 1rem;
     margin-bottom: 1rem;
+    color: rgb(76, 189, 151);
+    border-left: rgb(93, 253, 200) 2px solid;
+    padding-left: 10px;
 
   }
   h3{
     font-size: 16px;
+    color: rgb(177, 113, 177);
+    display: flex;
+    width: max-content;
+    padding-left: 10px;
+    margin-top: 1rem;
+    margin-bottom: 0.5rem;
+    border-left: magenta 2px solid;
+    
+  }
+  .bullets{
+    
+    h3{
+      color: rgb(76, 189, 151);
+      border-left: rgb(93, 253, 200) 2px solid;
+    }
+    
+  }
+  .h3content{
+    margin-left: 3rem;
+    margin-bottom: 1rem;
   }
   h1,h2,h3{
     display: flex;
@@ -43,7 +73,7 @@
     background-color: midnightblue;
   }
   pre{
-    background-color: rgb(48, 45, 56);
+    background-color: #3a3058;
     color: whitesmoke;
     padding: 2rem;
     border-left: 5px solid rgb(93, 253, 200);

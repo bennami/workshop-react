@@ -1,7 +1,7 @@
 import React, {useState} from "react";
 import  {SubMenu} from './subMenu';
 import {IoIosArrowUp} from 'react-icons/io';
-import {IconContext} from "react-icons"
+import {IconContext} from "react-icons";
 import "./nav.scss"
 
 function Nav(props) {
