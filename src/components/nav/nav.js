@@ -86,7 +86,7 @@ function Nav(props) {
                             { style: {
                                 fontSize: '20px', 
                                 color: "whitesmoke", 
-                                transform:"rotate(180deg)",
+                                transform:`${rotate}`,
                                 marginLeft: "5px"
                                 }
                             }

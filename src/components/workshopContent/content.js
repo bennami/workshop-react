@@ -17,7 +17,7 @@ export const Guide = (props) => {
   return (
     <div className="workshop-content">
       <h1>What we will learn</h1>
-      <section  className={`workshop-chapter${props.active}` }id="whatIsReact">
+      <section  className={`workshop-chapter ${props.active}` }id="whatIsReact">
         <h2>what is react?</h2>
         <p>
           React is an open source library that revolutionazied the way we code JS. To fully understand its concept, we must take some key words into consideration.
@@ -57,6 +57,21 @@ export const Guide = (props) => {
       </section>
       <section className="workshop-chapter" id="hooks">
       <h2>hooks</h2>
+      <p>
+        To get started with hooks, we we will focus our attention to two of the most used hooks. useEffect() and useState().
+      </p>
+      <h3>useEffect hook</h3>
+        <p>
+        The core concept of this hook is that whenever our app component renders or re-renders, the useEffecht hook will be invoked.
+
+        The useEffect takes two parameters: an anonymous function and a dependency array.
+        </p>
+        <pre>
+            useEffect(()=>{
+                //some code goes here
+            },[])
+        </pre>
+         In addition, we can also return a callback function to unmount and clean our effect. To learn more about this you can check what memory leaks are and how to clean after your action in code.
       </section>
       <section className="workshop-chapter" id="productionBuild">
       <h2>Create a build folder for production</h2>

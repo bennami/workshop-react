@@ -3,19 +3,18 @@ import logo from '../../logo.svg';
 import Guide from '../workshopContent/content';
 import Footer from '../footer/footer';
 import { ScrollToTop } from '../scrollToTop/scrollToTop';
+import "./header.scss"
 
 function Home(){
 
 return(
   <>
-  
-   <header className="App-header">
-   
-        <img src={logo} className="App-logo" alt="logo" />
+   <header className= "header">
+       <img src={logo} className="react-logo" alt="logo" />
        <h1>Welcome to the react crash course</h1>
-       <h5>The perfect place to get started</h5>
+       <h4>The perfect place to get started</h4>
         <a
-          className="App-link"
+          className="header-link"
           href="#sectionIntro"
         >
           Let's get to it
@@ -26,8 +25,7 @@ return(
         <Guide/>
       </section>
       <Footer/>
-     
-
+  
   </>
 )
 
