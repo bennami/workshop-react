@@ -26,14 +26,14 @@ function Profile() {
         getData();
     },[slug]);
 
-    console.log(history);
+    console.log(repositories);
 
     return(
 
 
         <>
         <section className={'listOfCards'}>
-<h1>this is your profile</h1>
+            <h1>this is your profile</h1>
 
             <h1>{slug}</h1>
             <div  className={'list'}>
@@ -45,7 +45,7 @@ function Profile() {
                             img={``}
                             projectName={project.name}
                             projectDescription={'Add project description'}
-                            projectLink={''}
+                            projectLink={project.homepage}
                             GithubLink={project.html_url}
                         />
                     })
