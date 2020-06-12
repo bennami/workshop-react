@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "dbe156f0dab4ab52afb1cf823313472c",
+    "revision": "14c2956d3f30e3549cc78090aa0fe9cb",
     "url": "/workshop-react/index.html"
   },
   {
-    "revision": "4644362bba44fd427b32",
-    "url": "/workshop-react/static/css/main.07ec455e.chunk.css"
+    "revision": "35e910e941c7fd9ffc1c",
+    "url": "/workshop-react/static/css/main.e9569326.chunk.css"
   },
   {
-    "revision": "28e9da04b20e6692d3ed",
-    "url": "/workshop-react/static/js/2.2eca43e0.chunk.js"
+    "revision": "9f97c8b626f44fa00de6",
+    "url": "/workshop-react/static/js/2.fbbc6362.chunk.js"
   },
   {
     "revision": "c64c486544348f10a6d6c716950bc223",
-    "url": "/workshop-react/static/js/2.2eca43e0.chunk.js.LICENSE.txt"
+    "url": "/workshop-react/static/js/2.fbbc6362.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "4644362bba44fd427b32",
-    "url": "/workshop-react/static/js/main.8b617884.chunk.js"
+    "revision": "35e910e941c7fd9ffc1c",
+    "url": "/workshop-react/static/js/main.0e89c1b0.chunk.js"
   },
   {
     "revision": "9ab47d46d08df73c01ed",
