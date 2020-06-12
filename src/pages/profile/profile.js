@@ -1,5 +1,5 @@
 import React, {useEffect, useState} from 'react';
-import { useHistory,useParams } from "react-router-dom";
+import { useHistory,useParams, } from "react-router-dom";
 import axios from 'axios';
 import Card from "../../components/cards/cards";
 import './profile.scss';

@@ -2,6 +2,7 @@ import React, {useState} from "react";
 import  {SubMenu} from './subMenu';
 import {IoIosArrowUp} from 'react-icons/io';
 import {IconContext} from "react-icons";
+import { Link} from  'react-router-dom';
 import "./nav.scss"
 
 function Nav(props) {
@@ -40,7 +41,9 @@ function Nav(props) {
         <nav>
             <ul className= {"nav-desktop"}>
                 <li>
+                    <Link to={'/'}>
                     <button>Home</button>
+                    </Link>
                 </li>
                 <li>
                     <button onClick={subMenu}>
