@@ -12,7 +12,7 @@ function Nav(props) {
     const [rotate, setRotate]= useState('rotate(90deg)');
 
     const navSlide =() => {
-       
+
          //open close nav on mobile
             if(!navClass){
                setClass(true);
@@ -31,7 +31,7 @@ function Nav(props) {
         }else{
             setRotate('rotate(180deg)');
             console.log(rotate);
-            setOpenSubMenu(true)       
+            setOpenSubMenu(true)
         }
     }
 
@@ -40,19 +40,16 @@ function Nav(props) {
         <nav>
             <ul className= {"nav-desktop"}>
                 <li>
-                    <button>Examples</button>
-                </li>
-                <li>
                     <button>Home</button>
                 </li>
                 <li>
                     <button onClick={subMenu}>
-                    Overview 
+                    Overview
                     <IconContext.Provider
                     value={
                         { style: {
-                            fontSize: '20px', 
-                            color: "whitesmoke", 
+                            fontSize: '20px',
+                            color: "whitesmoke",
                             transform:`${rotate}`,
                             marginLeft: "5px"
                             }
@@ -61,10 +58,10 @@ function Nav(props) {
                         <IoIosArrowUp/>
                     </IconContext.Provider>
                     </button>
-                </li> 
-                <SubMenu openSubMenu={openSubMenu}/>   
+                </li>
+                <SubMenu openSubMenu={openSubMenu}/>
             </ul >
-           
+
 
             <div onClick={navSlide} className={burgerClass ? 'burger' : 'burger toggle'} >
                 <div className="line1"/>
@@ -80,12 +77,12 @@ function Nav(props) {
                 </li>
                 <li>
                     <button onClick={subMenu}>
-                        Overview 
+                        Overview
                         <IconContext.Provider
                         value={
                             { style: {
-                                fontSize: '20px', 
-                                color: "whitesmoke", 
+                                fontSize: '20px',
+                                color: "whitesmoke",
                                 transform:`${rotate}`,
                                 marginLeft: "5px"
                                 }
@@ -94,7 +91,7 @@ function Nav(props) {
                             <IoIosArrowUp/>
                         </IconContext.Provider>
                     </button>
-                </li> 
+                </li>
                 <SubMenu openSubMenu={openSubMenu}/>
             </ul >
         </nav>

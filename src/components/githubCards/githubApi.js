@@ -1,33 +1,29 @@
-import React, {useEffect, useState} from 'react';
-import axios from 'axios';
+import React, {useState} from 'react';
+import {  useHistory  } from "react-router-dom";
 import './formApi.scss'
 
 export const GithubApi = () => {
 
   //https://api.github.com/users/bennami/repos
   //https://api.github.com/users/bennami
-   const [userName, setuserName] = useState('');
-   const [data, setData] = useState([]);
+   const [userName, setUserName] = useState('');
+   const history = useHistory();
 
-    
 
   async function  handleSubmit (e){
         e.preventDefault();
-        const resp = await
-        axios.get(`https://api.github.com/users/${userName}`);
-        setData(resp.data);
-        
+        history.push(`/profile/${userName}`);
   };
 
-console.log(data,userName);
- 
+
+
   return (
     <div>
        <form onSubmit={handleSubmit} className="form-gh">
                 <input
                     type="text"
                     value={userName}
-                    onChange={event => setuserName(event.target.value)}
+                    onChange={event => setUserName(event.target.value)}
                     placeholder={'type name'}
                     required
                 />
