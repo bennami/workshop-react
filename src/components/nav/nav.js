@@ -50,7 +50,8 @@ function Nav(props) {
                     Overview
                     <IconContext.Provider
                     value={
-                        { style: {
+                        {
+                            style: {
                             fontSize: '20px',
                             color: "whitesmoke",
                             transform:`${rotate}`,
@@ -65,7 +66,7 @@ function Nav(props) {
                 <SubMenu openSubMenu={openSubMenu}/>
             </ul >
 
-
+            {/*nav bar for mobile*/}
             <div onClick={navSlide} className={burgerClass ? 'burger' : 'burger toggle'} >
                 <div className="line1"/>
                 <div className="line2"/>
