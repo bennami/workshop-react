@@ -5,6 +5,7 @@ Welcome to the new way of react
 ## Introduction to functional components and hooks with react
 
 During this workshop we will build a "portfolio" liike website using functional components and hooks
+![](preview.gif)
 
 ### There is much to be learned
 
