@@ -1,5 +1,4 @@
 [workshop website](https://bennami.github.io/workshop-react/)
-![](workshop-react.gif)
 
 Welcome to the new way of react
 
