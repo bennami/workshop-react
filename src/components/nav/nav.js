@@ -79,7 +79,9 @@ function Nav(props) {
             </div>
             <ul className= {navClass ? 'nav-links-mobile': 'nav-links-mobile nav-active-mobile'}>
                 <li>
-                    <button>Home</button>
+                    <Link to={'/'}>
+                        <button>Home</button>
+                    </Link>
                 </li>
                 <li>
                     <Link to={'/results'}>
