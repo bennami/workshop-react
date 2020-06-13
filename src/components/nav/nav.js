@@ -46,6 +46,11 @@ function Nav(props) {
                     </Link>
                 </li>
                 <li>
+                    <Link to={'/results'}>
+                        <button>Results</button>
+                    </Link>
+                </li>
+                <li>
                     <button onClick={subMenu}>
                     Overview
                     <IconContext.Provider
@@ -74,10 +79,12 @@ function Nav(props) {
             </div>
             <ul className= {navClass ? 'nav-links-mobile': 'nav-links-mobile nav-active-mobile'}>
                 <li>
-                    <button>Examples</button>
+                    <button>Home</button>
                 </li>
                 <li>
-                    <button>Home</button>
+                    <Link to={'/results'}>
+                        <button>Results</button>
+                    </Link>
                 </li>
                 <li>
                     <button onClick={subMenu}>
