@@ -1,23 +1,25 @@
 {
   "files": {
-    "main.css": "/workshop-react/static/css/main.2a46ae62.chunk.css",
-    "main.js": "/workshop-react/static/js/main.17370e12.chunk.js",
-    "main.js.map": "/workshop-react/static/js/main.17370e12.chunk.js.map",
+    "main.css": "/workshop-react/static/css/main.b42114a3.chunk.css",
+    "main.js": "/workshop-react/static/js/main.ba5bd5ba.chunk.js",
+    "main.js.map": "/workshop-react/static/js/main.ba5bd5ba.chunk.js.map",
     "runtime-main.js": "/workshop-react/static/js/runtime-main.acfb99ab.js",
     "runtime-main.js.map": "/workshop-react/static/js/runtime-main.acfb99ab.js.map",
-    "static/js/2.41789d61.chunk.js": "/workshop-react/static/js/2.41789d61.chunk.js",
-    "static/js/2.41789d61.chunk.js.map": "/workshop-react/static/js/2.41789d61.chunk.js.map",
+    "static/js/2.a161fd6f.chunk.js": "/workshop-react/static/js/2.a161fd6f.chunk.js",
+    "static/js/2.a161fd6f.chunk.js.map": "/workshop-react/static/js/2.a161fd6f.chunk.js.map",
     "index.html": "/workshop-react/index.html",
-    "precache-manifest.20b2ce14b75a8657e619315e831adff5.js": "/workshop-react/precache-manifest.20b2ce14b75a8657e619315e831adff5.js",
+    "precache-manifest.a6bec012303bb50cc529311c518532bc.js": "/workshop-react/precache-manifest.a6bec012303bb50cc529311c518532bc.js",
     "service-worker.js": "/workshop-react/service-worker.js",
-    "static/css/main.2a46ae62.chunk.css.map": "/workshop-react/static/css/main.2a46ae62.chunk.css.map",
-    "static/js/2.41789d61.chunk.js.LICENSE.txt": "/workshop-react/static/js/2.41789d61.chunk.js.LICENSE.txt",
-    "static/media/logo.svg": "/workshop-react/static/media/logo.5d5d9eef.svg"
+    "static/css/main.b42114a3.chunk.css.map": "/workshop-react/static/css/main.b42114a3.chunk.css.map",
+    "static/js/2.a161fd6f.chunk.js.LICENSE.txt": "/workshop-react/static/js/2.a161fd6f.chunk.js.LICENSE.txt",
+    "static/media/babel.png": "/workshop-react/static/media/babel.e7c474b7.png",
+    "static/media/logo.svg": "/workshop-react/static/media/logo.5d5d9eef.svg",
+    "static/media/webpack.png": "/workshop-react/static/media/webpack.c500a380.png"
   },
   "entrypoints": [
     "static/js/runtime-main.acfb99ab.js",
-    "static/js/2.41789d61.chunk.js",
-    "static/css/main.2a46ae62.chunk.css",
-    "static/js/main.17370e12.chunk.js"
+    "static/js/2.a161fd6f.chunk.js",
+    "static/css/main.b42114a3.chunk.css",
+    "static/js/main.ba5bd5ba.chunk.js"
   ]
 }
