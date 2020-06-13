@@ -4,6 +4,7 @@ import axios from 'axios';
 import Card from "../../components/cards/cards";
 import './profile.scss';
 import Footer from "../../components/footer/footer";
+import SplashScreen from "../../components/splashScreen/splashScreen";
 
 
 function Profile() {
@@ -28,18 +29,32 @@ function Profile() {
 
     console.log(repositories);
 
+
+    let color;
+    function randomColor() {
+            //generate random color
+            let r, g, b;
+            //change bg color
+            r = Math.floor(Math.random() * 256);
+            g = Math.floor(Math.random() * 256);
+            b = Math.floor(Math.random() * 256);
+            return  color = `rgb(${r},${g},${b})`;
+    };
+    randomColor();
+    console.log(color)
+
     return(
 
 
         <>
-        <section className={'listOfCards'}>
-            <h1>this is your profile</h1>
 
-            <h1>{slug}</h1>
+        <section className={'listOfCards'}>
+            <SplashScreen name={slug}/>
             <div  className={'list'}>
                 <div className={'cards'}>
                 {
                     repositories.map((project, i) =>{
+                        randomColor();
                         return <Card
                             key={i}
                             img={``}
@@ -47,9 +62,48 @@ function Profile() {
                             projectDescription={'Add project description'}
                             projectLink={project.homepage}
                             GithubLink={project.html_url}
+                            bgColor={color}
                         />
                     })
                 }
+                <Card
+                    img={``}
+                    projectName={'prject title'}
+                    projectDescription={'Add project description'}
+                    projectLink={'website link'}
+                    GithubLink={'github link'}
+                    bgColor={randomColor()}
+
+                />
+                    <Card
+                        img={``}
+                        projectName={'prject title'}
+                        projectDescription={'Add project description'}
+                        projectLink={'website link'}
+                        GithubLink={'github link'}
+                        bgColor={randomColor()}
+
+                    />
+                    <Card
+                        img={``}
+                        projectName={'prject title'}
+                        projectDescription={'Add project description'}
+                        projectLink={'website link'}
+                        GithubLink={'github link'}
+                        bgColor={randomColor()}
+
+                    />
+                    <Card
+                        img={``}
+                        projectName={'prject title'}
+                        projectDescription={'Add project description'}
+                        projectLink={'website link'}
+                        GithubLink={'github link'}
+                        bgColor={randomColor()}
+
+                    />
+
+
                 </div>
             </div>
 

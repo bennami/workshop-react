@@ -5,6 +5,8 @@
   padding: 1rem;
   transform: scale(1.0);
   transition: 0.3s;
+  border-radius: 5px;
+  background-color: black;
   a{
     cursor: pointer;
     color: whitesmoke;
@@ -39,10 +41,7 @@
     }
 
   }
-  border-radius: 5px;
 
-  background: rgb(131,58,180);
-  background: linear-gradient(90deg, rgb(59, 18, 85) 20%, rgb(18, 39, 104) 100%);
   h3,h5{
     padding: 1rem;
     color: whitesmoke;
@@ -54,6 +53,6 @@
 }
 
 .card:hover{
-  box-shadow: 5px 5px 10px 0 rgba(119, 0, 255, 0.6);
+  //box-shadow: 5px 5px 10px 0 rgba(0, 255, 123, 0.6);
   transform: scale(1.1);
 }

@@ -7,11 +7,12 @@ import {IconContext} from "react-icons";
                       projectName,
                       projectDescription,
                       projectLink,
-                      GithubLink})
+                      GithubLink,
+                        bgColor})
     {
 
         return(
-            <div className={'card'} >
+            <div className={'card'} style={{backgroundColor: `${bgColor}`}}>
                 <div>
                     <ul>
                         <li>

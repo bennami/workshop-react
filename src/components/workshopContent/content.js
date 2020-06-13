@@ -1,18 +1,17 @@
 import React,{useState} from 'react';
-import GithubApi from "../githubCards/githubApi";
+import GithubApi from "../inputField/githubApi";
 import './content.scss';
 
 export const Guide = (props) => {
 
   const[scroll,setScroll]=useState('backToTop')
+
   function scrollShow (){
-
-    if (window.pageYOffset >100){
-      setScroll('backToTop active')
-    } else{
-      setScroll('backToTop')
-    }
-
+     if (window.pageYOffset >100){
+       setScroll('backToTop active')
+     } else{
+       setScroll('backToTop')
+     }
   }
 
   return (
@@ -23,7 +22,9 @@ export const Guide = (props) => {
         <section className="h3content">
           <h3>The workshop</h3>
           <p>We will build some key elements that you can implement when creating your own portfolio. We will create a nav bar implementing react-router-dom and the useState.<br/> Next we will use the Github Api to fetch our repositories and create cards with it. to keep t dynamic for all we will have an input field where we can input any user name from github to make  the portfolio more dynamic. With this data we will be able to render the cards accordingly with the user.</p>
-
+          <br/>
+          <p>Type in any Github user name to see the result of the workshop:</p>
+        <GithubApi/>
         </section>
         <h2>what is react?</h2>
         <p>
