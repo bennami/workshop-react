@@ -9,7 +9,8 @@ export const FormInput = () => {
 
     async function  handleSubmit (e){
         e.preventDefault();
-        history.push(`/profile/${userName}`);
+        history.push(`/profile/${userName}`)
+        window.scrollTo(0, 0);
     }
 
   return (
