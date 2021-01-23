@@ -1,25 +1,23 @@
 {
   "files": {
-    "main.css": "/workshop-react/static/css/main.b42114a3.chunk.css",
-    "main.js": "/workshop-react/static/js/main.13cb1085.chunk.js",
-    "main.js.map": "/workshop-react/static/js/main.13cb1085.chunk.js.map",
-    "runtime-main.js": "/workshop-react/static/js/runtime-main.acfb99ab.js",
-    "runtime-main.js.map": "/workshop-react/static/js/runtime-main.acfb99ab.js.map",
-    "static/js/2.a161fd6f.chunk.js": "/workshop-react/static/js/2.a161fd6f.chunk.js",
-    "static/js/2.a161fd6f.chunk.js.map": "/workshop-react/static/js/2.a161fd6f.chunk.js.map",
+    "main.css": "/workshop-react/static/css/main.d574bad8.chunk.css",
+    "main.js": "/workshop-react/static/js/main.95e5a8a8.chunk.js",
+    "main.js.map": "/workshop-react/static/js/main.95e5a8a8.chunk.js.map",
+    "runtime-main.js": "/workshop-react/static/js/runtime-main.69d1dcf0.js",
+    "runtime-main.js.map": "/workshop-react/static/js/runtime-main.69d1dcf0.js.map",
+    "static/js/2.45cf7896.chunk.js": "/workshop-react/static/js/2.45cf7896.chunk.js",
+    "static/js/2.45cf7896.chunk.js.map": "/workshop-react/static/js/2.45cf7896.chunk.js.map",
     "index.html": "/workshop-react/index.html",
-    "precache-manifest.c7e5c301a27589934449997498b43a03.js": "/workshop-react/precache-manifest.c7e5c301a27589934449997498b43a03.js",
-    "service-worker.js": "/workshop-react/service-worker.js",
-    "static/css/main.b42114a3.chunk.css.map": "/workshop-react/static/css/main.b42114a3.chunk.css.map",
-    "static/js/2.a161fd6f.chunk.js.LICENSE.txt": "/workshop-react/static/js/2.a161fd6f.chunk.js.LICENSE.txt",
-    "static/media/babel.png": "/workshop-react/static/media/babel.e7c474b7.png",
-    "static/media/logo.svg": "/workshop-react/static/media/logo.5d5d9eef.svg",
-    "static/media/webpack.png": "/workshop-react/static/media/webpack.c500a380.png"
+    "static/css/main.d574bad8.chunk.css.map": "/workshop-react/static/css/main.d574bad8.chunk.css.map",
+    "static/js/2.45cf7896.chunk.js.LICENSE.txt": "/workshop-react/static/js/2.45cf7896.chunk.js.LICENSE.txt",
+    "static/media/babel.9d2992ab.png": "/workshop-react/static/media/babel.9d2992ab.png",
+    "static/media/logo.103b5fa1.svg": "/workshop-react/static/media/logo.103b5fa1.svg",
+    "static/media/webpack.47692505.png": "/workshop-react/static/media/webpack.47692505.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.acfb99ab.js",
-    "static/js/2.a161fd6f.chunk.js",
-    "static/css/main.b42114a3.chunk.css",
-    "static/js/main.13cb1085.chunk.js"
+    "static/js/runtime-main.69d1dcf0.js",
+    "static/js/2.45cf7896.chunk.js",
+    "static/css/main.d574bad8.chunk.css",
+    "static/js/main.95e5a8a8.chunk.js"
   ]
 }
