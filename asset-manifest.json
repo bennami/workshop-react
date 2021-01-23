@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/workshop-react/static/css/main.6e6f724b.chunk.css",
-    "main.js": "/workshop-react/static/js/main.8a23f273.chunk.js",
-    "main.js.map": "/workshop-react/static/js/main.8a23f273.chunk.js.map",
+    "main.js": "/workshop-react/static/js/main.877902e9.chunk.js",
+    "main.js.map": "/workshop-react/static/js/main.877902e9.chunk.js.map",
     "runtime-main.js": "/workshop-react/static/js/runtime-main.69d1dcf0.js",
     "runtime-main.js.map": "/workshop-react/static/js/runtime-main.69d1dcf0.js.map",
     "static/js/2.c3349181.chunk.js": "/workshop-react/static/js/2.c3349181.chunk.js",
@@ -18,6 +18,6 @@
     "static/js/runtime-main.69d1dcf0.js",
     "static/js/2.c3349181.chunk.js",
     "static/css/main.6e6f724b.chunk.css",
-    "static/js/main.8a23f273.chunk.js"
+    "static/js/main.877902e9.chunk.js"
   ]
 }
