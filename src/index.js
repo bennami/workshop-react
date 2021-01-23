@@ -2,13 +2,15 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
-import {BrowserRouter} from "react-router-dom";
+import { HashRouter} from "react-router-dom";
 import './index.css';
 
+//in this particular example i am using hashrouter instead of browser router, so the site works on gh pages
+
 ReactDOM.render(
-  <BrowserRouter>
+  <HashRouter>
     <App />  
-  </BrowserRouter>,
+  </HashRouter>,
   document.getElementById('root')
 );
 
