@@ -50,25 +50,25 @@ function Nav(props) {
                         <button>Results</button>
                     </Link>
                 </li>
-                <li>
-                    <button onClick={subMenu}>
-                    Overview
-                    <IconContext.Provider
-                    value={
-                        {
-                            style: {
-                            fontSize: '20px',
-                            color: "whitesmoke",
-                            transform:`${rotate}`,
-                            marginLeft: "5px"
-                            }
-                        }
-                    }>
-                        <IoIosArrowUp/>
-                    </IconContext.Provider>
-                    </button>
-                </li>
-                <SubMenu openSubMenu={openSubMenu}/>
+                {/*<li>*/}
+                {/*    <button onClick={subMenu}>*/}
+                {/*    Overview*/}
+                {/*    <IconContext.Provider*/}
+                {/*    value={*/}
+                {/*        {*/}
+                {/*            style: {*/}
+                {/*            fontSize: '20px',*/}
+                {/*            color: "whitesmoke",*/}
+                {/*            transform:`${rotate}`,*/}
+                {/*            marginLeft: "5px"*/}
+                {/*            }*/}
+                {/*        }*/}
+                {/*    }>*/}
+                {/*        <IoIosArrowUp/>*/}
+                {/*    </IconContext.Provider>*/}
+                {/*    </button>*/}
+                {/*</li>*/}
+                {/*<SubMenu openSubMenu={openSubMenu}/>*/}
             </ul >
 
             {/*nav bar for mobile*/}
@@ -88,24 +88,24 @@ function Nav(props) {
                         <button>Results</button>
                     </Link>
                 </li>
-                <li>
-                    <button onClick={subMenu}>
-                        Overview
-                        <IconContext.Provider
-                        value={
-                            { style: {
-                                fontSize: '20px',
-                                color: "whitesmoke",
-                                transform:`${rotate}`,
-                                marginLeft: "5px"
-                                }
-                            }
-                        }>
-                            <IoIosArrowUp/>
-                        </IconContext.Provider>
-                    </button>
-                </li>
-                <SubMenu openSubMenu={openSubMenu}/>
+                {/*<li>*/}
+                {/*    <button onClick={subMenu}>*/}
+                {/*        Overview*/}
+                {/*        <IconContext.Provider*/}
+                {/*        value={*/}
+                {/*            { style: {*/}
+                {/*                fontSize: '20px',*/}
+                {/*                color: "whitesmoke",*/}
+                {/*                transform:`${rotate}`,*/}
+                {/*                marginLeft: "5px"*/}
+                {/*                }*/}
+                {/*            }*/}
+                {/*        }>*/}
+                {/*            <IoIosArrowUp/>*/}
+                {/*        </IconContext.Provider>*/}
+                {/*    </button>*/}
+                {/*</li>*/}
+                {/*<SubMenu openSubMenu={openSubMenu}/>*/}
             </ul >
         </nav>
 
